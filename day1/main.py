@@ -16,7 +16,7 @@ ans = 0
 for x in range(len(l1)):
     ans += abs(l1[x] - l2[x])
     
-print(ans)
+print("Partie 1: " + ans)
 
 ans2 = 0
 
@@ -27,4 +27,4 @@ for x in l1:
             nb+=1
     ans2 += nb * x
     
-print(ans2)
+print("Partie 2: " + ans2)
